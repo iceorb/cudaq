@@ -11,8 +11,6 @@ A Python-based job dispatcher that intelligently assigns compute tasks to GPUs b
 - 📁 **Per-job log files** with stdout/stderr capture
 - ⚙️ **Configurable thresholds and GPU selection**
 
----
-
 ## 📦 Installation
 
 1. Install prerequisites:
@@ -25,7 +23,6 @@ A Python-based job dispatcher that intelligently assigns compute tasks to GPUs b
    git clone [your-repo-url-here]
    ```
 
----
 
 ## ⚡ Quick Start
 
@@ -45,7 +42,6 @@ A Python-based job dispatcher that intelligently assigns compute tasks to GPUs b
    python cudaq.py status
    ```
 
----
 
 ## ⚙️ Configuration
 
@@ -64,7 +60,6 @@ Start dispatcher with config:
 python cudaq.py run --config config.yaml
 ```
 
----
 
 ## 📋 Job Management
 
@@ -84,7 +79,6 @@ python process_data.py --workers 4
 - **Completed**: Finished successfully  
 - **Failed**: Exited with error/crash  
 
----
 
 ## 💾 Persistent Tracking
 
@@ -95,7 +89,6 @@ Jobs are tracked in JSONL format with:
 - Log file path
 - Full command string
 
----
 
 ## 📁 Log Files
 
@@ -104,7 +97,6 @@ Jobs are tracked in JSONL format with:
 - Contains full stdout/stderr output
 - Path stored in job tracking file
 
----
 
 ## 🔍 Status Monitoring
 
@@ -118,11 +110,4 @@ Sample output:
 [→] python train.py     → GPU 0 → Running (PID 1234)
 [✓] python infer.py     → GPU 1 → Completed
 [ ]  python eval.py     → GPU N/A → Pending
-```
-
----
-
-## 📄 License
-
-MIT License – see header in source code for details.
 ```

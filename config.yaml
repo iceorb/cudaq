@@ -1,0 +1,6 @@
+# gpu_ids: [0, 1, 2]          # Which GPUs to use
+# min_free_mem_mb: 10000      # Minimum free memory required
+# poll_interval: 30           # Check interval in seconds
+# commands_file: jobs.txt     # Job commands source
+# log_dir: ./job_logs         # Log storage location
+# jobs_file: ./queue.jsonl    # Job tracking file
