@@ -1,4 +1,4 @@
-# GPU-Aware Distributed Job Dispatcher
+# cudaq: A GPU-Aware Distributed Job Dispatcher
 
 A Python-based job dispatcher that intelligently assigns compute tasks to GPUs based on real-time memory availability, with persistent job tracking and recovery capabilities.
 
